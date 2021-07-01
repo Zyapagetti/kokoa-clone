@@ -2,7 +2,7 @@
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.03);
+    background-color: whitesmoke;
     padding: 20px 45px;
     box-sizing: border-box;
     border-top: 1px solid rgba(0, 0, 0, 0.1);

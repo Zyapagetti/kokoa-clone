@@ -1,0 +1,9 @@
+.user-component__subtitle i {
+    color: tomato;
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+.more-screen .icon-row {
+    margin-top: 35px;
+}
