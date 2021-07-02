@@ -18,20 +18,13 @@
     color: #2e363e;
 }
 
-.nav__notification{
-    background-color: red;
-    width: 22px;
-    height: 22px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-weight: 600;
+.nav__notification {
     position: absolute;
-    left: 17px;
-    bottom: 17px;
+    left: 15px;
+    bottom: 15px;
+    animation: notificationAnimation 2s ease-in-out infinite;
 }
+
 
 .nav__ellipsis-notification{
     background-color: red;
