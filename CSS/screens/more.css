@@ -41,7 +41,7 @@
 
 .more-suggestions__icons {
     display: flex;
-
+    margin-bottom: 20px;
 }
 
 .more-suggestions__icon {
