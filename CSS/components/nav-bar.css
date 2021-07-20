@@ -3,7 +3,7 @@
   bottom: 0;
   width: 100%;
   background-color: whitesmoke;
-  padding: 20px 45px;
+  padding: 5px 45px;
   box-sizing: border-box;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   min-width: 400px;
@@ -81,3 +81,27 @@
 .nav__btn:last-child {
   animation-delay: 0.3s;
 }
+
+@keyframes changeBtnBackground {
+  from {
+    transform: none;
+  }
+  to {
+    background-color: rgb(219, 219, 219);
+  }
+}
+
+.nav__list div {
+  padding: 2% 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease-in-out;
+  background-color: whitesmoke;
+}
+
+.nav__list div:hover {
+  cursor: pointer;
+  background-color: rgb(212, 212, 212);
+}
+/* .nav__list div:hover {
+  animation: changeBtnBackground 500ms ease-in-out forwards;
+} */
