@@ -1,6 +1,6 @@
 #chat-screen {
   background-color: lightsteelblue;
-  height: 150vh;
+  height: 140vh;
 }
 
 #chat-screen .alt-header,
@@ -53,12 +53,35 @@
   margin-bottom: 25px;
 }
 
-.message-row img {
+.message-row__profile {
   width: 50px;
   height: 50px;
   border-radius: 20px;
   object-fit: cover;
   margin-right: 13px;
+}
+
+.message__wetube-thumbnail {
+  object-fit: cover;
+  width: 240px;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+.message__wetube-information {
+  padding-left: 10px;
+}
+
+.message__wetube-tags {
+  padding-left: 10px;
+  font-size: 14px;
+  color: rgb(150, 150, 150);
+}
+
+.message__wetube-link {
+  padding: 5px 10px;
+  font-size: 13px;
+  color: rgb(185, 185, 185);
 }
 
 .message__link-thumbnail {
@@ -80,6 +103,10 @@
   border-radius: 3px;
   margin-right: 3px;
   line-height: 1.5;
+}
+
+#wetube {
+  padding: 0;
 }
 
 .message__link {

@@ -8,7 +8,7 @@
   box-sizing: border-box;
   background-color: whitesmoke;
   z-index: 2;
-  min-width: 520px;
+  min-width: 400px;
 }
 
 .status-bar__column {
